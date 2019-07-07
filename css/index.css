@@ -1,0 +1,215 @@
+body{
+   background: url('background.jpg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center center;
+   background-size: cover;
+   margin: 0 !important;
+   background-size: 100% cover!important;
+   overflow:hidden;
+   display: block;
+} 
+
+/* Set a style for the rest of the elements besides the header elements on the index.html page */
+input.topButtons {
+width: 90px;
+padding: 10px;
+cursor: pointer;
+font-weight: 500;
+font-size: 90%;
+background: #0000ff;
+color: #fff;
+float: right;                  
+margin: 10px 10px 0px 0px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.logo-title {
+font-family: 'Satisfy', cursive;
+font-size: 50px;
+color: #112fb4;
+margin: auto;
+text-decoration: none;
+margin: 10px 10px 0px 10px;    
+}
+.middleText{
+   font-family: 'Marck Script', cursive;
+   margin-top: 0;
+   margin: 0 0 0px 10px;
+}
+input.centreButtons{
+width: 100px;
+padding: 10px;
+cursor: pointer;
+font-size: 94%;
+background: rgb(190, 167, 7);
+color:black;
+float: middle;                  
+align-items: center;
+margin: 220px 5px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 900;
+}
+input.centreButtons1{
+   width: 120px;
+   padding: 10px;
+   cursor: pointer;
+   font-size: 94%;
+   background: rgb(190, 167, 7);
+   color:black;
+   float: middle;                  
+   align-items: center;
+   margin: 220px 5px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 900;
+}
+.postButtons
+{
+   text-align: center;
+}
+.modal {
+   display: none; /* Hidden by default */
+   position: fixed; /* Stay in place */
+   z-index: 1; /* Sit on top */
+   left: 0;
+   top: 0;
+   width: 100%; /* Full width */
+   height: 100%; /* Full height */ 
+   background-color: rgb(0,0,0); /* Fallback color */
+   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+ 
+ /* Modal Content/Box */
+ .modal-content {
+   background-color: #fefefe;
+   margin: 15% auto; /* 15% from the top and centered */
+   padding: 10px;
+   border: 1px solid #888;
+   width: 20%; /* Could be more or less, depending on screen size */
+   height: 45%;
+ }
+ 
+ /* The Close Button */
+ .close {
+   color: #aaa;
+   float: right;
+   font-size: 28px;
+   font-weight: bold;
+ }
+ 
+ .close:hover,
+ .close:focus {
+   color: black;
+   text-decoration: none;
+   cursor: pointer;
+}
+h3
+ {
+    color: black;
+    text-align: center;
+    font-size: 22px;
+ }
+ h1
+ {
+    color: black;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ .btnColor
+{
+    background-color:#4CAF50;
+    width: 300px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 90%;
+    color: #fff;
+    float: right;                  
+    border: 0;
+    margin: 20px 0px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+.inputField
+{
+    display: flex;
+    width: 280px;
+    padding: 10px;
+    float: right;         
+    margin: 10px 0px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0ebeb;
+    border: 0;
+    margin-bottom: 10px;
+    flex-flow: row wrap;
+}
+label
+{
+   font-weight: bold;
+   padding: 10px;
+   margin: 10px 0px 0px 0px;
+}
+.not
+{
+    text-align: center;
+    font-weight: bold;
+}
+.sign {
+   color:blue;
+   background-color: transparent;
+   text-decoration: none;
+   cursor: pointer;
+} 
+
+.modalContent {
+   background-color: #fefefe;
+   margin: 15% auto; /* 15% from the top and centered */
+   padding: 10px;
+   border: 1px solid #888;
+   width: 20.2%; /* Could be more or less, depending on screen size */
+   height: 60%;
+}
+.modalcontent
+{
+   background-color: #fefefe;
+   margin: 15% auto; /* 15% from the top and centered */
+   padding: 10px;
+   border: 1px solid #888;
+   width: 40%; /* Could be more or less, depending on screen size */
+   height: 60%;
+   vertical-align: middle;
+}
+.textarea
+{
+    padding: 10px;
+    width: 94.5%;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.red
+{
+    background-color:red;
+    width: 300px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 90%;
+    color: #fff;
+    float: right;                  
+    border: 0;
+    margin: 20px 0px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+.inputField1
+{
+    display: flex;
+    width: 585px;
+    padding: 10px;
+    float: right;         
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0ebeb;
+    border: 0;
+    margin-bottom: 10px;
+
+}
